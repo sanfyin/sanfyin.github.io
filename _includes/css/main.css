@@ -271,7 +271,6 @@ nav ul li:hover, nav ul li.active {
   position:relative;
   transition:.5s;
   padding:5px 40px;
-  display: none;
 }
 #forkongithub a::before, #forkongithub a::after {
   content:""; width:100%; display:block; position:absolute;
@@ -281,7 +280,7 @@ nav ul li:hover, nav ul li.active {
 @media screen and (min-width:800px) {
   #forkongithub {
     position:fixed;
-    display:block;
+    display:none;
     top:0;
     right:0;
     width:200px;
