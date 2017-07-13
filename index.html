@@ -17,7 +17,7 @@
 <body>
   <div id="main">
 
-    <nav><ul>
+    <nav><img src="img/logo-ae.png"><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
