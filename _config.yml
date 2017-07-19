@@ -21,7 +21,7 @@ source_link: "https://github.com/sanfyin/sanfyin.github.io"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key:  ## put YOUR key here to enable tracking! (blank to disable)
-url2: "http://edu.sanfy.in"
+url2: "http://opensource.sanfy.in"
 
 ### template colors, used site-wide via css ###
 colors:
